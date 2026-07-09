@@ -16,6 +16,7 @@ O projeto é um manager futebolístico web original, inspirado no espírito de m
 - Manter o MVP leve, sem backend, login, rankings globais ou multiplayer.
 - Usar Vite com JavaScript puro enquanto o loop principal ainda está sendo validado.
 - Salvar carreira localmente via `localStorage` com chave versionada.
+- Manter `DATABASE_URL` apenas em variáveis de ambiente; nunca expor credenciais do NeonDB no código cliente.
 - Documentar mecânicas como Observado, Inferido, Decidido ou Pendente quando novas regras forem adicionadas.
 
 ## Pendências ou pontos em aberto
@@ -23,6 +24,7 @@ O projeto é um manager futebolístico web original, inspirado no espírito de m
 - Definir como será a escalação manual.
 - Definir modelo inicial de transferências.
 - Definir critérios de evolução de jogadores após mais testes de temporada.
+- Definir camada serverless/API antes de usar NeonDB, porque o Vite roda no navegador.
 
 ## Atenções para o agente
 

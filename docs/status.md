@@ -19,11 +19,14 @@ Base inicial jogável criada a partir do PRD. O navegador já permite novo jogo,
 - Interface funcional responsiva.
 - Persistência via `localStorage`.
 - Documentação inicial de mecânicas, status, decisões e tarefas.
+- GitHub conectado ao repositório `bcrbas/nomadfoot`.
+- Vercel conectado ao projeto `onilinkcoimbra-4887s-projects/nomadfoot`.
+- NeonDB configurado no Vercel como `DATABASE_URL` em Development, Preview e Production.
 
 ## Fora do MVP atual
 
 - Transferências, escalação manual, lesões, suspensões e estatísticas individuais.
-- Backend, login, rankings globais ou multiplayer.
+- Backend de aplicação, login, rankings globais ou multiplayer.
 - Balanceamento fino da simulação.
 
 ## Próximo marco

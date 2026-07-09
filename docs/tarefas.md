@@ -13,6 +13,7 @@ A base jogável do MVP já existe. As próximas tarefas devem melhorar o loop pr
 - [ ] Permitir escalação manual de titulares.
 - [ ] Criar tela simples de finanças.
 - [ ] Adicionar transferências básicas.
+- [ ] Criar camada serverless/API para acessar NeonDB sem expor credenciais ao navegador.
 - [ ] Registrar histórico por temporada com posição final do usuário.
 - [ ] Ajustar balanceamento da simulação após testes de temporadas completas.
 
