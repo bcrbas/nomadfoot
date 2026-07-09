@@ -17,6 +17,8 @@ O projeto é um manager futebolístico web original, inspirado no espírito de m
 - Usar Vite com JavaScript puro enquanto o loop principal ainda está sendo validado.
 - Salvar carreira localmente via `localStorage` com chave versionada.
 - Manter `DATABASE_URL` apenas em variáveis de ambiente; nunca expor credenciais do NeonDB no código cliente.
+- Usar Google Stitch como ferramenta de exploração visual; o código do repo continua sendo a fonte de verdade.
+- Tratar exports do Stitch como referência visual e adaptar manualmente antes de entrar em `src/`.
 - Documentar mecânicas como Observado, Inferido, Decidido ou Pendente quando novas regras forem adicionadas.
 
 ## Pendências ou pontos em aberto
@@ -30,6 +32,7 @@ O projeto é um manager futebolístico web original, inspirado no espírito de m
 
 - Não introduzir nomes reais de clubes ou jogadores licenciados.
 - Não adicionar complexidade que não melhore o loop principal agora.
+- Não colar exports do Stitch diretamente sobre lógica existente sem revisão.
 - Registrar novas decisões neste arquivo e detalhes históricos no log longo.
 
 ## Memória longa relacionada

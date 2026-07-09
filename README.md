@@ -35,8 +35,15 @@ docs/
   mecanicas.md Regras documentadas conforme o PRD
   status.md    Estado atual da base
   tarefas.md   Próximos passos
+design/
+  stitch/       Prompts e exports de referência do Google Stitch
+DESIGN.md       Sistema visual para importar/usar no Google Stitch
 ```
 
 ## Princípio de evolução
 
 O loop principal vem antes de profundidade: escolher clube, ver elenco, avançar rodada, consultar resultados, salvar e continuar. Novas mecânicas devem melhorar esse ciclo antes de ganhar telas próprias.
+
+## Fluxo visual
+
+Use `DESIGN.md` como contrato visual no Google Stitch. Exports e prompts de referência ficam em `design/stitch/`. O código exportado pelo Stitch deve ser tratado como referência visual e adaptado manualmente para `src/main.js` e `src/styles.css`.

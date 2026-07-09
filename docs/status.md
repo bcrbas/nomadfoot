@@ -22,6 +22,7 @@ Base inicial jogável criada a partir do PRD. O navegador já permite novo jogo,
 - GitHub conectado ao repositório `bcrbas/nomadfoot`.
 - Vercel conectado ao projeto `onilinkcoimbra-4887s-projects/nomadfoot`.
 - NeonDB configurado no Vercel como `DATABASE_URL` em Development, Preview e Production.
+- Google Stitch preparado como fluxo visual via `DESIGN.md`, `design/stitch/` e `docs/visual-workflow.md`.
 
 ## Fora do MVP atual
 
